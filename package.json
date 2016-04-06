@@ -1,0 +1,31 @@
+{
+  "name": "hatchback",
+  "description": "Javascript wrapper for DoubleClick for Publishers",
+  "version": "0.1.0",
+  "author": "Zach Graves <zagraves@gmail.com>",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint ./lib/*"
+  },
+  "keywords": [
+    "google",
+    "dfp",
+    "client"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "googleapis": "^4.0.0",
+    "soap": "^0.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3"
+  }
+}
